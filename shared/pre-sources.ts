@@ -491,6 +491,22 @@ export const originSources = {
       },
     },
   },
+  "renshi": {
+    name: "人事任免",
+    column: "china",
+    color: "red",
+    home: "https://www.shanghang.gov.cn/zwgk/rsxx/rsrm/",
+    title: "6站聚合",
+    interval: Time.Common,
+  },
+  "govnews": {
+    name: "政府要闻",
+    column: "china",
+    color: "blue",
+    home: "https://www.shanghang.gov.cn/xwzx/bdyw/",
+    title: "上杭·仙游",
+    interval: Time.Common,
+  },
 } as const satisfies Record<string, OriginSource>
 
 export function genSources() {

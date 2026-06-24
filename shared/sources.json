@@ -571,5 +571,21 @@
     "color": "green",
     "interval": 1800000,
     "title": "热播榜"
+  },
+  "renshi": {
+    "title": "6站聚合",
+    "name": "人事任免",
+    "column": "china",
+    "home": "https://www.shanghang.gov.cn/zwgk/rsxx/rsrm/",
+    "color": "red",
+    "interval": 1800000
+  },
+  "govnews": {
+    "title": "上杭·仙游",
+    "name": "政府要闻",
+    "column": "china",
+    "home": "https://www.shanghang.gov.cn/xwzx/bdyw/",
+    "color": "blue",
+    "interval": 1800000
   }
 }
